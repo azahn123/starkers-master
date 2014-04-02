@@ -29,7 +29,7 @@
 					<li data-slide="1">about me</li>
 					<li data-slide="2">services</li>
 					<li data-slide="3">blog</li>
-					<li data-slide="4">contact me test</li>
+					<li data-slide="4">contact me test 2</li>
 				</ul>
 			</div>
 
