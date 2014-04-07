@@ -106,14 +106,25 @@
 	wp_enqueue_style( 'grid', get_template_directory_uri() . '/css/grid.css');
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css');
 
+	wp_enqueue_style( 'fullPageStyle', get_template_directory_uri() . '/css/jquery.fullPage.css');
+
 
 	wp_enqueue_script( 'stellar', get_template_directory_uri() . '/js/jquery.stellar.min.js', array( 'jquery' ), '',  true );
 	wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array( 'jquery' ), '',  true );
 	wp_enqueue_script( 'easing', get_template_directory_uri() . '/js/jquery.easing.1.3.js', array( 'jquery' ), '',  true );
 	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ), '',  true );
 	wp_enqueue_script( 'fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array( 'jquery' ), '',  true );
+	
+	wp_enqueue_script( 'fullPageJS', get_template_directory_uri() . '/js/jquery.fullPage.js', array( 'jquery' ), '',  true );
 
 
 
+
+ // function load_fonts() {
+ //            wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Give+You+Glory');
+ //            wp_enqueue_style( 'googleFonts');
+ //        }
+
+ //        add_action('wp_print_styles', 'load_fonts');
 
 

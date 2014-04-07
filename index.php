@@ -37,6 +37,7 @@
 	</div>
 
 
+
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
@@ -143,5 +144,33 @@
 
 <script>
   jQuery("#shineTitle").fitText(0.2, { minFontSize: '40px', maxFontSize: '400px' });
+
+
+jQuery(function(){
+ var shrinkHeader = 300;
+  jQuery(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('.menu').addClass('shrink');
+        }
+        else {
+            $('.menu').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset;
+    }
+});
+
+
+// jQuery(window).load(function () {
+//    alert('page is loaded');
+   
+//     setTimeout(function () {
+//         alert('page is loaded and 1 minute has passed');   
+//     }, 60000); 
+    
+// });
+
 
 </script>

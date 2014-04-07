@@ -112,8 +112,10 @@ margin: 10px 0;
     left: 50%;
     height: 30%;
     width: 50%;
-    margin: -15% 0 0 -30%;
+    margin: -15% 0 0 -25%;
     color: #fff;
+
+    font-family: 'Give You Glory', cursive;
 }
 
 #slide1{
